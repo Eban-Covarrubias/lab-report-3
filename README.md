@@ -242,3 +242,8 @@ on the merits.
 
 Here is another example with a large value of NUM, in this case the next 8 lines are printed out after finding a line with the
 word "Virginia" in it. 
+
+
+Citations:
+https://chat.openai.com/
+All of the information that I got about these options was purely from communication with chatGPT
