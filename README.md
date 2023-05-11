@@ -150,4 +150,95 @@ grep -A 2 "Virginia" ODonnell_et_al_v_LSCdecision.txt
 
 Output:
 ```
+Services of Southwest Virginia, Incorporated; CLIENT CENTERED LEGAL
+SERVICES OF SOUTHWEST VIRGINIA, INCORPORATED,
+Plaintiffs-Appellants,
+--
+District of Virginia, at Big Stone Gap. James P. Jones, District
+Judge. (CA-00-33-2)
+Argued: February 28, 2001
+--
+Virginia, for Appellants. Thomas Samuel Williamson, Jr., COVINGTON
+& BURLING, Washington, D.C., for Appellees. ON BRIEF: Andrew J.
+Heimert, COVINGTON & BURLING, Washington, D.C.; Paul R.
+--
+Virginia, for Appellees.
+Unpublished opinions are not binding precedent in this circuit.
+See Local Rule 36(c).
+--
+Client Centered Legal Services of Southwest Virginia,
+Incorporated and Hugh F. O'Donnell, its executive director
+(collectively, "CCLS"), appeal an order of the district court
+--
+in the coalfields region of southwestern Virginia, has been an LSC
+grantee since 1980.
+O'DONNELL v. EIDLEMAN
 ```
+
+Whenever a line with the word "Virginia" in it is found it is displayed, and the next 2 lines after it are also displayed. The number of
+lines being displayed after are determined by the value of NUM. THis can be useful to find some more information about a certain topic that
+is mentioned in a lengthier txt file.
+
+Example b)
+
+Input:
+```
+grep -A 8 "Virginia" ODonnell_et_al_v_LSCdecision.txt
+```
+
+Output:
+```
+Services of Southwest Virginia, Incorporated; CLIENT CENTERED LEGAL
+SERVICES OF SOUTHWEST VIRGINIA, INCORPORATED,
+Plaintiffs-Appellants,
+� No. 00-1901
+v.
+JOHN EIDLEMAN, Program Specialist for the Legal Services
+Corporation; LEGAL SERVICES CORPORATION; JOHN MCKAY, President of
+the Legal Services Corporation,
+Defendants-Appellees. �
+--
+District of Virginia, at Big Stone Gap. James P. Jones, District
+Judge. (CA-00-33-2)
+Argued: February 28, 2001
+Decided: June 25, 2001
+Before WILKINS and WILLIAMS, Circuit Judges, and HAMILTON,
+Senior Circuit Judge.
+Vacated and remanded with instructions by unpublished per curiam
+opinion.
+O'DONNELL v. EIDLEMAN
+--
+Virginia, for Appellants. Thomas Samuel Williamson, Jr., COVINGTON
+& BURLING, Washington, D.C., for Appellees. ON BRIEF: Andrew J.
+Heimert, COVINGTON & BURLING, Washington, D.C.; Paul R.
+Thomson, Jr., WOODS, ROGERS & HAZLE-GROVE, P.L.C., Roanoke,
+Virginia, for Appellees.
+Unpublished opinions are not binding precedent in this circuit.
+See Local Rule 36(c).
+
+
+OPINION
+PER CURIAM:
+Client Centered Legal Services of Southwest Virginia,
+Incorporated and Hugh F. O'Donnell, its executive director
+(collectively, "CCLS"), appeal an order of the district court
+granting judgment in favor of the Legal Services Corporation and
+two of its officers (collectively, "the LSC") on CCLS's claims that
+various actions by the LSC exceeded its statutory and regulatory
+authority. For the reasons set forth below, we conclude that
+Congress has not authorized judicial review of these claims. We
+therefore vacate and remand with instructions to dismiss.
+--
+in the coalfields region of southwestern Virginia, has been an LSC
+grantee since 1980.
+O'DONNELL v. EIDLEMAN
+This litigation involves CCLS's challenge to certain actions
+taken by the LSC in connection with the LSC's consolidation of
+services areas (undertaken as a cost-cutting measure) and
+implementation of a competitive bidding program for grant money.
+Following a bench trial, the district court rejected CCLS's claims
+on the merits.
+```
+
+Here is another example with a large value of NUM, in this case the next 8 lines are printed out after finding a line with the
+word "Virginia" in it. 
