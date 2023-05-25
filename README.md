@@ -247,3 +247,53 @@ word "Virginia" in it.
 Citations:
 https://chat.openai.com/
 All of the information that I got about these options was purely from communication with chatGPT
+
+# Here are the prompts I used and the outputs I got:
+prompt:
+teach me how to use grep linux command and all of its options
+output:
+![image](https://github.com/Eban-Covarrubias/lab-report-3/assets/130101682/0e6ae0a4-7c4d-44e8-b4d0-0cc4b9dda77c)
+
+Using this output I decided which options were the most interesting and would be included on the report. I was also able to view additional 
+options by following the advice at the bottom of the output recommending me to run the command grep --help. Once I picked several of the
+options I sent in prompts to chatGPT asking it to give me a discription of what the command does with the specific option and to give an example of 
+using it.
+
+prompt:
+show me an example of using grep with the -i option
+output:
+![image](https://github.com/Eban-Covarrubias/lab-report-3/assets/130101682/e700a4b2-2ec3-4300-a11a-a0c064965881)
+
+Using this output I gave paraphrased brief description of the functionality of the command with the specified option and ran tests inspired by some of the tests 
+that chatGPT showed me.
+
+prompt:
+show me an example of using the grep command with the -n option
+output:
+![image](https://github.com/Eban-Covarrubias/lab-report-3/assets/130101682/5b2087a2-44aa-42ff-870c-0faddb837ace)
+
+Using this output I gave paraphrased brief description of the functionality of the command with the specified option and ran tests inspired by some of the tests 
+that chatGPT showed me.
+
+prompt:
+show me an example of using grep command with the -m NUM option
+output:
+![image](https://github.com/Eban-Covarrubias/lab-report-3/assets/130101682/db171b25-6d7a-4345-ade7-8c88de105571)
+
+Using this output I gave paraphrased brief description of the functionality of the command with the specified option and ran tests inspired by some of the tests 
+that chatGPT showed me.
+
+prompt:
+show me an example of using grep with -A num option
+output:
+![image](https://github.com/Eban-Covarrubias/lab-report-3/assets/130101682/f54b6c53-6bfe-4066-8a9d-70056f141ebf)
+
+Using this output I gave paraphrased brief description of the functionality of the command with the specified option and ran tests inspired by some of the tests 
+that chatGPT showed me.
+
+
+
+
+
+
+
